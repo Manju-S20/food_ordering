@@ -1,0 +1,179 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: rgb(232, 174, 174);
+    font-size: 20px;
+}
+
+.logo
+{
+    width:5rem;
+    border-radius: 50%;
+    box-shadow: 0 1px 50px rgb(167, 151, 151);
+}
+/* .logo {
+    width: 5rem;
+    border-radius: 50%;
+    animation: glow 2s ease-in-out infinite alternate;
+} */
+
+/* @keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(233, 55, 55, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 30px rgba(134, 129, 129, 0.8);
+    }
+} */
+/* .navMenu
+{
+    display: flex;
+    font-size: 1.2rem;
+   
+}
+ .navMenu .links
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.navMenu .links :hover
+{
+    color: rgb(21, 21, 131);
+}
+.navMenu .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+.navMenu .nav-link :hover
+{
+    color: rgb(21, 21, 131);
+}
+.secondaryContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-evenly;
+
+    
+}
+.card
+{
+    border-radius: 1rem;
+    background-color: rgb(218, 143, 143);
+    width: 20vw;
+    padding: 1rem;
+}
+.cardImage
+{
+    width: 100%;
+    height: 25vh;
+    border-radius: 1rem;  
+}
+.search
+{
+    display: flex;
+   background-color: rgb(235, 198, 198);
+   justify-self: right;
+   width: 20vw;
+   height: 30px;
+   margin: 2rem;
+   padding: 2px;
+   border-style: none;
+}
+.resContainer
+{
+    padding: 5vh 15vw;
+}
+.resTitle
+{
+    text-align: center;
+    padding-bottom: 5vh;
+    font-size: 1.5rem;
+}
+.resMenuContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.resMenuTitle
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(231, 121, 121);
+    padding: 0.8rem 1rem;
+}
+.resMenu
+{
+    border-radius: 0.5rem;
+    background-color: rgb(223, 193, 193);
+}
+.imageContainer
+{
+    width: 15%;
+    display: flex;
+    justify-content: end;
+    
+}
+.resMenuImage
+{
+    width: 100%;
+    border-radius: 1rem;
+    height: 14vh;
+}
+.resMenuItems
+{
+    display: flex;
+    padding: 0.8rem;
+    gap:4rem;
+    justify-content: space-between;
+     : 2px solid rgb(218, 143, 143);
+}
+.foodName
+{
+    font-weight: bold;
+}
+.foodDescription
+{
+    font-size: 0.8rem;
+    text-indent: 4rem;
+}
+.foodDetails
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0.5rem
+}
+.addBtn
+{
+    position: absolute;
+    height: 2rem;
+    width: 4rem;
+} */ 
+@keyframes bgBlink {
+  0%,100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-bgBlink{
+  background-size: 200% 200%;
+  animation: bgBlink 8s linear infinite;
+}
+ @import "tailwindcss";
